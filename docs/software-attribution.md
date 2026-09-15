@@ -20,6 +20,8 @@ When distributing Core or a modified covered work, retain its applicable notices
 
 The research datasets have separately stated licenses and source-specific rights. Their license is not automatically determined by the editor used to prepare them.
 
-## Application audit status
+## Implementation provenance
 
-This page corrects attribution in the public documentation. It is not a certification of the application's complete license compliance. The supplied local Core snapshot contained JavaScript, CSS and HTML fragments but no top-level license file. The exact deployed upstream revision, retained notices, TAB-PUB modifications and corresponding-source provision must still be checked in the deployed application. Any source publication needed for compliance should cover the relevant software, without including private research records, credentials or server configuration.
+The documentation identifies Core and preserves its upstream license. The exact historical upstream revision of the TAB-PUB installation has not yet been established. Retained notices and corresponding-source provision for the hosted adaptation remain under review; this repository does not claim that those obligations have been completed.
+
+[Core integration and modifications](core-integration.md) documents the inspected adaptations and the comparison reference used. The reference commit is not presented as the deployed version. Dataset software acknowledgements likewise avoid assigning an unverified upstream version.
