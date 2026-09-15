@@ -1,27 +1,23 @@
 # Maintenance and releases
 
-The public repository documents the method and provides independent examples for using publication data. It does not distribute the hosted editing service.
+This repository maintains the method documentation and independent examples for reading TAB-PUB datasets. Application development, documentation revisions and scholarly dataset releases have distinct histories.
 
-## Roles
+## Responsibility
 
-TAB-PUB is a research project hosted by the Institute of Ancient Studies, Faculty of Humanities, Eötvös Loránd University. It is not a separate legal entity. Its GitHub organization is administered by the project leader through an individual account; this does not designate the university as the GitHub contracting party.
+TAB-PUB is hosted by the Institute of Ancient Studies, Faculty of Humanities, Eötvös Loránd University. Repository maintainers review documentation and example-code changes. Dataset creators and scholarly reviewers are recorded in each release's metadata; repository maintenance alone does not confer dataset authorship.
 
-Repository maintainers review documentation and example-code changes. Dataset creators and scholarly reviewers are identified for each dataset release. Repository maintenance does not confer authorship of every dataset.
+The project Data Management Plan records operational responsibilities, retention and handover arrangements. This public repository describes the research method and outputs rather than account administration or server recovery procedures.
 
-The organization should have at least two named, trusted owners, each using an individual account with two-factor authentication. Operational credentials and recovery codes are not repository content. The project should document an institutional handover arrangement and responsibility for preserving the service and its research records.
+## Versions and preservation
 
-## Versioning
+A documentation commit identifies the text and example scripts available at that revision. The [changelog](../CHANGELOG.md) records substantive changes; documentation changes do not imply a new dataset release.
 
-Documentation/example releases and dataset releases have separate version histories. A new GitHub documentation release does not imply that a new research dataset has been published. Keep a changelog; identify corrections and changes in interpretation. Record the application/export version in deposited dataset provenance.
+The public reader changes with saved Approved collations. Deposited dataset versions are the fixed, citable research outputs. A reproducible analysis identifies both the dataset version DOI and the version or commit of its analysis code. Method documentation and scripts associated with a publication can be archived with that publication's supporting materials.
 
-The live reader changes with Approved collations. Deposited dataset versions remain the citable snapshots. Add links to their records in the TAB-PUB Zenodo community; cite the specific version DOI for a repeatable analysis.
+The [TAB-PUB Zenodo community](https://zenodo.org/communities/tab-pub) collects dataset deposits. Its collection URL is distinct from the DOI assigned to an individual deposit.
 
-## Release review
+## Review scope
 
-Before making a repository release public, check the included file list, run the example tests, review source and license notices, confirm author/maintainer metadata, and check external links. Publish only the selected public files, never a copy of the application workspace or its Git history.
+Documentation review checks the described behavior against the implementation, source attribution and the examples. The example tests cover group-reference consistency and supported input layouts; they are not a complete validation of the editing application or the exported schema.
 
-Before a dataset release, complete the project's metadata and rights review, validate the exported package and review its scientific content. The public documentation summarizes the process; it does not replace the project Data Management Plan, retention policy or institutionally assigned responsibilities.
-
-## Preservation
-
-Zenodo is the archive for released datasets. GitHub is the changing documentation and collaboration space. Versioned method documentation and analysis scripts should also be archived when needed to support a publication. Linking the Zenodo community alone does not create a dataset record or DOI.
+Dataset release review addresses scientific content, creators, source citations, licensing scope and package integrity. Software licensing and corresponding-source obligations are tracked separately in [software attribution and licensing](software-attribution.md).
