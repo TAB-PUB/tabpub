@@ -2,32 +2,34 @@
 
 ```mermaid
 flowchart TD
-    A[Witness verification and source references] --> B[Correspondence mapping]
-    B --> C[Core: Regularise]
-    C --> D[Core: Set Variants]
-    D --> E[Core: Order Readings and assessment]
+    A[Witness verification and source references] --> B[Verified Correspondence groups]
+    B --> C[Prealigned Core apparatus]
+    C --> D[Set Variants: edit unit boundaries]
+    D --> E[Order Readings: group and assess]
     E --> F[Saved Approved collation]
     F --> G[Textual Collations]
     F --> H[Publication export and release review]
     H --> I[Versioned repository deposit]
 ```
 
-## Verify the witnesses
+## Witness verification and correspondence
 
-Researchers check electronic starting texts against the relevant manuscript or printed edition. Workbenches record verification, corrections, local variants and their sources. A verification edition and an electronic starting text are different provenance elements; checking the former does not erase the latter.
+The [witness Workbenches](workbenches.md) prepare the textual evidence before alignment. Researchers check electronic starting texts against the relevant manuscript or printed edition. Workbenches record verification, corrections, local variants and their sources. Verification sources and electronic starting texts remain distinct provenance elements.
 
-## Map correspondence
+Correspondence groups establish which selected textual spans are to be compared. They preserve source-token references and explicit absence states. A witness not preserved at a passage is not silently treated as an omission. The [multilingual comparison guide](multilingual-comparison.md) explains how these groups become Core units.
 
-Correspondence records relate the selected witness material to the passage. Local variants retain their scope and source references. A witness not preserved at a passage is not silently treated as an omission.
+## Editing in Core
 
-## Edit the collation
+The mapped apparatus enters Core through its editorial workflow, but does not use Core's automatic regularisation rules to establish cross-language agreement. Source changes belong in the Workbenches; alignment changes belong in Correspondence. Reload Correspondence reconstructs the initial apparatus from those verified records.
 
-Regularisation handles comparison rules. Set Variants handles the boundaries and combination of units. Order Readings includes research grouping and characterization. The assessment is attached to the edited Core state, rather than to a separately regenerated set of units.
+**Set Variants** is used to establish editorial units, including combining adjacent units. **Order Readings** adds reading assessment: complete or partial agreement, distinct groups, primary/secondary/literary/uncertain judgments, secondary explanations and permitted Hebrew reconstructions.
 
-Researchers can record complete agreement, partial agreement and distinct reading groups. Groups can be assessed as primary, secondary, literary or uncertain. Secondary readings can carry an explanation and a relationship to the relevant group. Permitted Hebrew reconstructions are separate from notes and witness transcriptions.
+The assessment is attached to the edited Core state. Its recorded basis identifies the unit and readings that were assessed; changes to that basis require review. Reconstructions remain distinct from notes and attested text.
 
-## Approve and publish
+## Approval and release
 
-Saving an Approved collation makes its current projection available in Textual Collations. Repository publication is a separate release step: authorship, version, source references and rights information are reviewed before deposit.
+A saved Approved collation supplies the current view in Textual Collations. Approval records an editorial decision within the project, rather than a claim that an interpretation cannot be revised.
 
-Research exports contain fuller working records. Publication exports contain the scholarly projection of the Approved collation and its documented sources. Neither the live reader nor a repository deposit should be confused with a backup of the editing service.
+Repository publication is a separate release step. Dataset creators review authorship, version, source references, rights and scientific content before deposit. Research exports contain fuller working records; publication exports contain the scholarly projection and its documented sources. Verse export is available per Approved passage. Chapter export becomes available from the final verse when every verse has an Approved save in the same text mode.
+
+Deposited versions provide stable citations; the public reader reflects current Approved work. Neither export is a complete backup of the editing service.
