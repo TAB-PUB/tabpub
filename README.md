@@ -1,3 +1,9 @@
+## Software foundation
+
+TAB-PUB embeds and adapts [Collation Editor Core](https://github.com/itsee-birmingham/collation_editor_core), created by Catherine Smith at ITSEE, University of Birmingham. Catherine Smith and Troy A. Griffitts carried out the restructuring for release 1.0. Core provides the regularisation, variant-unit editing and reading-order workflow; TAB-PUB adds project integration, scholarly assessment and export facilities.
+
+Core is licensed under **GNU GPL v3**, separately from the documentation and independent example scripts. See [software attribution and licensing](docs/software-attribution.md) and the [unmodified upstream license](licenses/Collation-Editor-Core-GPL-3.0.txt).
+
 <img src="TAB-PUB_logo.png" alt="TAB-PUB logo" width="140">
 
 # TAB-PUB
