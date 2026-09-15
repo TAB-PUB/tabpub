@@ -1,0 +1,174 @@
+{
+  "schema": "tabpub-scholarly-collation-1",
+  "context": "DEMO.1.1",
+  "license_scope": "CC BY 4.0: synthetic teaching data only",
+  "units": [
+    {
+      "unit_id": "demo-u1",
+      "apparatus": "apparatus",
+      "start": 2,
+      "end": 2,
+      "groups": {
+        "g-m": {
+          "judgment": ""
+        }
+      },
+      "order": [
+        "g-m"
+      ],
+      "readings": [
+        {
+          "id": "demo-u1:M-L",
+          "witness": "M-L",
+          "quotation": "synthetic-demo-u1-M-L",
+          "relation": "baseline",
+          "group": "g-m",
+          "partial": false
+        },
+        {
+          "id": "demo-u1:G",
+          "witness": "G",
+          "quotation": "synthetic-demo-u1-G",
+          "relation": "same",
+          "group": "g-m",
+          "partial": false
+        },
+        {
+          "id": "demo-u1:V",
+          "witness": "V",
+          "quotation": "synthetic-demo-u1-V",
+          "relation": "same",
+          "group": "g-m",
+          "partial": false
+        },
+        {
+          "id": "demo-u1:S",
+          "witness": "S",
+          "quotation": "synthetic-demo-u1-S",
+          "relation": "same",
+          "group": "g-m",
+          "partial": false
+        },
+        {
+          "id": "demo-u1:T",
+          "witness": "T",
+          "quotation": "synthetic-demo-u1-T",
+          "relation": "same",
+          "group": "g-m",
+          "partial": false
+        }
+      ],
+      "reconstructions": [],
+      "preferred": null,
+      "note": "Synthetic complete agreement."
+    },
+    {
+      "unit_id": "demo-u2",
+      "apparatus": "apparatus",
+      "start": 4,
+      "end": 4,
+      "groups": {
+        "g-m": {
+          "judgment": "secondary",
+          "characterization": "Illustrative expansion; not a claim about any biblical passage.",
+          "secondary_to_groups": [
+            "g-b"
+          ]
+        },
+        "g-b": {
+          "judgment": "primary"
+        }
+      },
+      "order": [
+        "g-m",
+        "g-b"
+      ],
+      "readings": [
+        {
+          "id": "demo-u2:M-L",
+          "witness": "M-L",
+          "quotation": "synthetic-demo-u2-M-L",
+          "relation": "baseline",
+          "group": "g-m",
+          "partial": false
+        },
+        {
+          "id": "demo-u2:G",
+          "witness": "G",
+          "quotation": "synthetic-demo-u2-G",
+          "relation": "different",
+          "group": "g-b",
+          "partial": false
+        },
+        {
+          "id": "demo-u2:S",
+          "witness": "S",
+          "quotation": "synthetic-demo-u2-S",
+          "relation": "different",
+          "group": "g-b",
+          "partial": true
+        }
+      ],
+      "reconstructions": [],
+      "preferred": null,
+      "note": "Synthetic M-secondary assessment with partial S agreement."
+    },
+    {
+      "unit_id": "demo-u3",
+      "apparatus": "apparatus",
+      "start": 6,
+      "end": 6,
+      "groups": {
+        "g-m": {
+          "judgment": "literary"
+        },
+        "g-b": {
+          "judgment": "literary"
+        },
+        "g-c": {
+          "judgment": "secondary",
+          "characterization": "Illustrative relationship to two literary groups.",
+          "secondary_to_groups": [
+            "g-m",
+            "g-b"
+          ]
+        }
+      },
+      "order": [
+        "g-m",
+        "g-b",
+        "g-c"
+      ],
+      "readings": [
+        {
+          "id": "demo-u3:M-L",
+          "witness": "M-L",
+          "quotation": "synthetic-demo-u3-M-L",
+          "relation": "baseline",
+          "group": "g-m",
+          "partial": false
+        },
+        {
+          "id": "demo-u3:G",
+          "witness": "G",
+          "quotation": "synthetic-demo-u3-G",
+          "relation": "different",
+          "group": "g-b",
+          "partial": false
+        },
+        {
+          "id": "demo-u3:V",
+          "witness": "V",
+          "quotation": "synthetic-demo-u3-V",
+          "relation": "different",
+          "group": "g-c",
+          "partial": false
+        }
+      ],
+      "reconstructions": [],
+      "preferred": null,
+      "note": "Synthetic alternative literary groups."
+    }
+  ],
+  "correspondence_links": []
+}
